@@ -1,44 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
-        android:id="@+id/besinImageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/ic_launcher_background"
-        android:layout_margin="15dp"/>
+
+    <data>
+        <variable
+            name="besin"
+            type="com.onimaskesi.besinlerkitabi.model.Besin" />
+        <variable
+            name="listener"
+            type="com.onimaskesi.besinlerkitabi.adapter.BesinClickListener" />
+    </data>
+
 
     <LinearLayout
+        android:orientation="horizontal"
+        android:onClick="@{listener::besinTiklandi}"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/besinIsmiTextView"
+            android:id="@+id/besinId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Besin Ismi"
-            android:textSize="25dp"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="20dp"/>
+            android:visibility="gone"
+            android:text="@{String.valueOf(besin.uuid)}"/>
 
-        <TextView
-            android:id="@+id/besinKalorisiTextView"
-            android:layout_width="wrap_content"
+        <ImageView
+            android:id="@+id/besinImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:downloadImage="@{besin.besinGorsel}"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Besin kalorisi"
-            android:textSize="15dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="20dp"/>
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/besinIsmiTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{besin.besinIsim}"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/besinKalorisiTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{besin.besinKalori}"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"/>
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
-
-
-</LinearLayout>
+</layout>

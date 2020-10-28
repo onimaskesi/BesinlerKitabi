@@ -36,42 +36,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinDetayiViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinListesiViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+            <state relative-caret-position="430">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
               <folding>
                 <element signature="e#1272#1596#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinListesiFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinListesiRecyclerAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="48" column="115" lean-forward="true" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinDAO.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#46#174#0" expanded="true" />
+                <element signature="e#2035#3431#0" />
               </folding>
             </state>
           </provider>
@@ -80,39 +60,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_besin_detayi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="239">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinDetayiViewModel.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/util/util.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="e#49#239#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinListesiRecyclerAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinDetayiFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/model/Besin.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -124,9 +101,9 @@
       <list>
         <option value="navigationResourceFile" />
         <option value="layoutResourceFile_vertical" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -134,6 +111,9 @@
     <findStrings>
       <find>ArrayList</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,12 +124,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/BesinDetayiFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/besin_graph.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/besin_recycler_row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinAPI.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinAPIServis.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/util/util.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_besin_detayi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/model/Besin.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BaseViewModel.kt" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -157,31 +134,37 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinDataBase.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_besin_listesi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinListesiFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinListesiViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinDetayiViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinListesiRecyclerAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinDetayiFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinDAO.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinClickListener.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/besin_recycler_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinListesiRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_besin_detayi.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/util/util.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinListesiViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinDetayiFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinDetayiViewModel.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -301,7 +284,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.32242227" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" visible="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -335,12 +318,12 @@
       <provider selected="true" editor-type-id="nav-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinAPI.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -358,24 +341,6 @@
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="e#46#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/besin_recycler_row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/util/util.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#44#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -436,12 +401,19 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinListesiViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinListesiFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinDAO.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#1272#1596#0" />
+            <element signature="e#46#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -453,52 +425,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinClickListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/besin_recycler_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/adapter/BesinListesiRecyclerAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="48" column="115" lean-forward="true" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinListesiFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinDetayiFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_besin_detayi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="239">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/servis/BesinDAO.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/util/util.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="102">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinListesiViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding>
-            <element signature="e#46#174#0" expanded="true" />
+            <element signature="e#1272#1596#0" />
+            <element signature="e#2035#3431#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/viewmodel/BesinDetayiViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#49#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/onimaskesi/besinlerkitabi/view/BesinDetayiFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
         </state>
       </provider>
     </entry>

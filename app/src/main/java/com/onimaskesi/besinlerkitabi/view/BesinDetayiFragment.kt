@@ -6,9 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.onimaskesi.besinlerkitabi.R
+import com.onimaskesi.besinlerkitabi.databinding.FragmentBesinDetayiBinding
 import com.onimaskesi.besinlerkitabi.util.gorselIndir
 import com.onimaskesi.besinlerkitabi.util.placeholderYap
 import com.onimaskesi.besinlerkitabi.viewmodel.BesinDetayiViewModel
@@ -19,6 +21,7 @@ class BesinDetayiFragment : Fragment() {
 
     lateinit var viewModel : BesinDetayiViewModel
     private var besinId = 0
+    private lateinit var dataBinding : FragmentBesinDetayiBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +33,9 @@ class BesinDetayiFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_besin_detayi, container, false)
+        dataBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_besin_detayi,container,false)
+        //return inflater.inflate(R.layout.fragment_besin_detayi, container, false)
+        return dataBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -50,12 +55,17 @@ class BesinDetayiFragment : Fragment() {
         viewModel.besinLiveData.observe(this, Observer { besin ->
 
             besin?.let{
+
+                dataBinding.besin = besin
+
+                /*
                 besinIsimTextView.text = besin.besinIsim
                 besinKaloriTextView.text = besin.besinKalori
                 besinKarbonhidratTextView.text = besin.besinKarbonhidrat
                 besinProteinTextView.text = besin.besinProtein
                 besinYagTextView.text = besin.besinYag
                 besinDetayImageView.gorselIndir(besin.besinGorsel, placeholderYap(context!!))
+                 */
             }
         })
     }

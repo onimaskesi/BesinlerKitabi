@@ -16,8 +16,7 @@ class BesinDetayiViewModel(application: Application) : BaseViewModel(application
         launch {
 
             val dao = BesinDataBase(getApplication()).besinDao()
-            val besin = dao.getBesin(uuid)
-            besinLiveData.value = besin
+            besinLiveData.value = dao.getBesin(uuid)
 
         }
 

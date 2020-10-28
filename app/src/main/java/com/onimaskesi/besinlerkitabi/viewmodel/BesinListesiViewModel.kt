@@ -82,8 +82,8 @@ class BesinListesiViewModel(application: Application) : BaseViewModel(applicatio
                     object : DisposableSingleObserver<ArrayList<Besin>>(){
                         override fun onSuccess(t: ArrayList<Besin>) {
 
-                            besinleriGoster(t)
                             SQLiteSakla(t)
+                            besinleriGoster(t)
                             //Toast.makeText(getApplication(), "Besinleri İnternetten aldık", Toast.LENGTH_LONG).show()
 
                         }
