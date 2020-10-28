@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/besinImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/besinIsmiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Besin Ismi"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/besinKalorisiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Besin kalorisi"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
